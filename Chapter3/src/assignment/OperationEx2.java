@@ -20,7 +20,8 @@ public class OperationEx2 {
 		
 		System.out.println(flag);
 
-		
+
+
 		
 
 	}
