@@ -5,7 +5,8 @@ class BirthDay {
 	 private int day;
 	 private int month;
 	 private int year;
-	public int getDay() {
+	
+	 public int getDay() {
 		return day;
 	}
 	public void setDay(int day) {
@@ -52,4 +53,5 @@ public class BirthDayTest{
 		day.setYear(2000);
 	
 	}
+	
 }

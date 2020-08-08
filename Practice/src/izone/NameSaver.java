@@ -1,13 +1,30 @@
 package izone;
 
 public class NameSaver {
-	int name;
-	String gender;
-	int age;
-	int birthday;
 
+ String studentName;
 
-public void ShowMemberInfo() {
-	System.out.println(name+"는 "+gender+"이며 "+age+"살인 "+birthday+" 출생입니다.");
-	}
+		
+public String getStudentName(){
+	
+	return studentName;
+	
+}
+	
+
+		public void setStudentName(String name) {
+			studentName=name;
+			
+		}
+		   public static void main(String[] args) {
+			   
+			   NameSaver member = new NameSaver();
+			  member.studentName="김채원";
+					  
+			System.out.println(member.studentName);
+			   
+		   }
+
+	
+
 }
