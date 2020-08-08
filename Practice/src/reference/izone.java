@@ -1,7 +1,11 @@
 package reference;
 
+import javax.print.DocFlavor.STRING;
+
 public class izone {
 
-	int memberName;
+	int age;
+	String memberName;
+	Grade produce48;
 	
 }
