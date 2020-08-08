@@ -1,8 +1,15 @@
 package hiding;
 
-public class Birthday {
+class BirthDay {
 	int day;
 	int month;
 	int year;
 
+}
+
+
+public class BirthDayTest{
+
+	
+	
 }
