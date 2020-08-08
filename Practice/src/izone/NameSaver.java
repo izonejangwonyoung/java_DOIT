@@ -40,7 +40,6 @@ public void setBirthDay(String birthDay) {
 			member2.birthDay="1999/09/29";
 				
 			System.out.println(member2.studentName);
-			
 			System.out.println(member2.birthDay);
 			   
 		   }
