@@ -1,9 +1,39 @@
 package hiding;
 
 class BirthDay {
-	int day;
-	int month;
-	int year;
+	
+	 private int day;
+	 private int month;
+	 private int year;
+	public int getDay() {
+		return day;
+	}
+	public void setDay(int day) {
+		if(month == 2) {
+			
+			if(day<1||day>28) {
+				System.out.println("날짜 입력 에러입니다.");
+			}
+			else {
+				this.day = day;
+			}	
+		}
+		
+	}
+	public int getMonth() {
+		return month;
+	}
+	public void setMonth(int month) {
+		
+		
+		this.month = month;
+	}
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
 
 }
 
@@ -11,5 +41,15 @@ class BirthDay {
 public class BirthDayTest{
 
 	
+	public void main(String[] args) {
+		
+		BirthDay day=new BirthDay();
+		
+		day.setMonth(8);
+		
+		day.setDay(1);
+		
+		day.setYear(2000);
 	
+	}
 }
