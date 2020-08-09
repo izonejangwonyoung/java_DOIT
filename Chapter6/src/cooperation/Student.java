@@ -12,9 +12,13 @@ public class Student {
 	
 	public void takeBus(Bus bus) {
 		
-		
 		bus.take(1250);
 		money -=1250;
+	} 
+	public void takeSubway(Subway subway) {
+		
+		subway.take(780);
+		money -=780;
 	} 
 	
 	public void showInfo() {

@@ -18,7 +18,7 @@ public class Subway {
 	}
 	
 	public void showInfo() {
-		System.out.println("지하철 노선"+lineNumber+"번의 승객 수는 "+passengerCount+"명이고, 수입은"+money+"원 입니다.");
+		System.out.println("지하철 노선 "+lineNumber+"번의 승객 수는 "+passengerCount+"명이고,수입은 "+money+"원입니다.");
 	}
 }
 
