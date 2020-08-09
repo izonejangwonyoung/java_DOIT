@@ -1,6 +1,5 @@
 package reference;
 
-import javax.print.DocFlavor.STRING;
 
 public class izone {
 
