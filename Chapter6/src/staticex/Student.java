@@ -11,4 +11,12 @@ public class Student {
 		studentID=serialNum;	
 			
 		}
+
+		public static int getSerialNum() {
+		
+//			
+			return serialNum;
+		}
+
+		
 }
