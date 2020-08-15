@@ -1,10 +1,17 @@
 package inheritance;
 
+import java.awt.Point;
+
 public class Circle {
 
-		private int x;
-		private int y;
+		Point point; //has-a relationship
 		
+		@SuppressWarnings("unused")
 		private int radius;
+		
+		public Circle() {
+			point=new Point();
+			
+		}
 		
 }
