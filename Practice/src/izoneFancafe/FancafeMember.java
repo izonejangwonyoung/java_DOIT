@@ -44,6 +44,7 @@ public class FancafeMember {
 	public FancafeMember() {
 		rank="bronze";
 		bonusPointRatio=0.05;
+		System.out.println("FancafeMember() 생성자 호출");
 	}
 	
 	public int calcprice(int price) {

@@ -19,6 +19,7 @@ public class izoneFancafeVIP extends FancafeMember{
 		rank="VIP";
 		bonusRatio=0.1;
 		saleRatio=0.2;
+		System.out.println("izoneFancafeVIP() 생성자 호출");
 	}
 
 	public int calcPrice(int price) {
