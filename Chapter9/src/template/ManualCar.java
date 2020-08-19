@@ -21,4 +21,9 @@ public class ManualCar extends Car{
 		System.out.println("비나 눈의 양에 따라 자동으로 조절됩니다.");
 	}
 
+	@Override
+	public void washCar() {
+	System.out.println("수동으로 세차가 됩니다.");
+	}
+
 }
